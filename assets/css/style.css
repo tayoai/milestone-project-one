@@ -38,7 +38,7 @@ header a {
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    text-transforming: uppercase;
+    text-transform: none;
     letter-spacing: 2px;
 }
 
