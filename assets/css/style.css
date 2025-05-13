@@ -156,6 +156,28 @@ main {
     justify-content: center;
 }
 
+/* Meetings section */
+#times {
+    background: url("../images/Biomedical_Laboratory_Sciences.png") no-repeat center/cover;
+    /* Handles responsiveness of the image without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15px;
+    text-align: center;
+    /* Creates a grid of meetings time dives over the background image */
+    border: 2px solid #ffffff;
+}
+
+#times h3 {
+    /* override the heading colour set in general styles */
+    color: #ffffff;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
