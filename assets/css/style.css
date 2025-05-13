@@ -211,11 +211,57 @@ main {
         width: 300px;
         right: 50px;
     }
+
+    /* Takeaways section */
+    #tips-training, #tips-services {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #tips-training > div, #tips-services > div {
+        width: 75%;
+    }
+
+    #tips-services > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Takeaways section */
+    #tips {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #tips > div {
+        flex: 1;
+    }
+
+    #tips-image {
+        order: 0;
+    }
+
+    #tips-services {
+        order: 1;
+    }
+
+    #tips-services > div {
+        align-self: flex-start;
+    }
+
+    #tips-training > div {
+        align-self: flex-end;
     }
 }
