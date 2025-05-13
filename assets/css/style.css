@@ -113,6 +113,32 @@ main {
     color: #ffffff;
 }
 
+/* Training and Services section */
+#takeaways {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#takeaways > h2 {
+    text-align: center;
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#tips-traing>div, #tips-services>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#tips p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
