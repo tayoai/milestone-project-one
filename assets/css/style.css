@@ -86,10 +86,16 @@ nav-toggle:checked ~ nav {
 }
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* bms section */
+#bms {
+    height: 600px;
+    width: 100%;
+    background: url("../images/BMS\ Rocks.JPG") no-repeat center center/cover;
 }
 
 /* Footer */
