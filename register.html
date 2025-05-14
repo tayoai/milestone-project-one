@@ -35,7 +35,41 @@
     </header>
 
     <!-- main content section -->
-    <main>Main content</main>
+    <main>
+        <section id="register">
+            <form action="register-form" method="POST" action="https://formdump.biomedlive.com">
+                <h2>Register for our Lab event</h2>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first_name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last_name" class="text-input" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email-address" name="email_address" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="on-site">On-site</label>
+                        <input type="radio" id="on-site" name="event-type" value="on-site" required checked>
+
+                    </div>
+                    <div>
+                        <label for="online">Online</label>
+                        <input type="radio" id="online" name="event-type" value="online" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" name="event-type" value="both" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="join-button">Join Us!</button>
+            </form>
+
+        </section>
+    </main>
 
     <!-- footer -->
     <footer>
