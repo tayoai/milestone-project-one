@@ -24,6 +24,9 @@ h1, h2, h3 {
     letter-spacing: 2px;
 }
 
+.hidden-heading {
+    display: none;
+}
 
 /* Header */
 header {
@@ -178,6 +181,18 @@ main {
     color: #ffffff;
 }
 
+/* Gallery */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+
+}
+
+#photos {
+    line-height: 0;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -193,6 +208,13 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 /* media query: tablets and larger (768px and up) */
 @media (min-width: 768px) {
     /* Header*/
