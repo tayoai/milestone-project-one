@@ -5,7 +5,7 @@
 Information on organizations and communities that specifically support international professionals and scientists settling in the UK. Find the best career post-arrival career settling services in the uk as an international trained Biomedical scientist. For UK resident students who have recently graduated, we'll tell you how to become a registered Biomedical scientist and step by step guide.
 This website is your comprehensive guide to navigating the process of integrating in the United Kingdom as a highly skilled scientist from overseas. We understand that relocating to a new country involves numerous steps and considerations, and our goal is to provide you with clear, accurate, and helpful information to make your transition as smooth as possible.
 
-##Features
+## Features
 
 Navigate through the sections using the menu at the top. Each section contains detailed information, and where possible, we provide links to social networks websites and other useful resources for further exploration.
 While we aim to be comprehensive, we understand that every individual's situation is unique. If you have specific questions or require further assistance, please refer to the "Contact Us" section for ways to get in touch.
@@ -28,10 +28,10 @@ While we aim to be comprehensive, we understand that every individual's situatio
 (https://tayoai.github.io/milestone-project-one/register.html)
 
 ## Credits
-- The code for the social media icon animations was taken from (website name)
-[link]
-- The gallery photos were taken from.....
-[link]
+- The photo for the social media were taken from (Gettyimages, labpulse)
+[https://www.labpulse.com/index1.html]
+[https://www.gettyimages.co.uk/detail/video/multiracial-group-of-scientists-talking-in-a-staff-stock-footage/1934720243]
+- The gallery photos were taken with my colleague from my work laboratory at Parkside Hospital
 
 
 
