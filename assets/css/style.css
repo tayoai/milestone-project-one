@@ -206,12 +206,12 @@ main {
 
 #register-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, .6);
+    background-color: rgba(60, 60, 60, 0.712);
     padding: 30px;
 }
 
 #register-form>h2 {
-    color: #fafafa;
+    color: #fafafafd;
     margin-bottom: 20px;
 }
 
