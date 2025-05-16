@@ -202,16 +202,17 @@ main {
     background-position: 75%;
     padding: 20px 10px 0 10%;
     flex-grow: 1;
+    filter: grayscale(80%);
 }
 
 #register-form {
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.712);
+    color: #f3eaea;
+    background-color: rgba(60, 60, 60, 0.397);
     padding: 30px;
 }
 
 #register-form>h2 {
-    color: #fafafafd;
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
